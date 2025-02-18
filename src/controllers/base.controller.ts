@@ -9,23 +9,23 @@ export class BaseController<T extends Document> {
         this.service = service;
     }
 
-    async create(req: Request, res: Response): Promise<void> {
+    async create(req: Request, res: Response): Promise<any> {
         throw new Error("Method not implemented.");
     }
 
-    async findById(req: Request, res: Response): Promise<void> {
+    async findById(req: Request, res: Response): Promise<any> {
         throw new Error("Method not implemented.");
     }
 
-    async findAll(req: Request, res: Response): Promise<void> {
+    async findAll(req: Request, res: Response): Promise<any> {
         throw new Error("Method not implemented.");
     }
 
-    async update(req: Request, res: Response): Promise<void> {
+    async update(req: Request, res: Response): Promise<any> {
         throw new Error("Method not implemented.");
     }
 
-    async delete(req: Request, res: Response): Promise<void> {
+    async delete(req: Request, res: Response): Promise<any> {
         throw new Error("Method not implemented.");
     }
 
